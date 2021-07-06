@@ -1,0 +1,16 @@
+input[type="text"] {
+  height: 35px;
+}
+@media screen and (max-width: 475px) {
+  .media {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 346px) {
+  .media {
+    width: 90%;
+  }
+}
+.fit {
+  object-fit: cover;
+}
